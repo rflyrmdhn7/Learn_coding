@@ -1,0 +1,45 @@
+h1{
+    display: flex;
+    justify-content: center; /* fungsi justify-content untuk mengatur posisi horizontal */
+    align-items: center; /* fungsi align-items untuk mengatur posisi vertikal */
+}
+.penjelasan{
+    display: flex;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+h3{
+    justify-content: start; /* fungsi justify-content untuk mengatur posisi horizontal */
+    background-color: #cbe836;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: 10px;
+}
+.red-box{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+.blue-box{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+}
+.green-box{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+}
+.isi-content{
+    background-color: none;
+}
