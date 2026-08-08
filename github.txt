@@ -1,0 +1,20 @@
+cara mubuat repositori di GitHub dan cara mem push nya
+
+1. buat repositori baru
+2. buka vs code cek terminal dir
+3. 	-git init
+	-git add .
+	-git commit -m "initial commit"
+	-git remote add origin
+	-git remote -v (mengecek apa sudah ditambahkan)
+	-git branch -M main
+	-git push -u origin main
+	-git push 
+
+
+jika ingin mengupdate repositori
+	-git status
+	-git init 
+	-git add .
+	-git commit "Menjelaskan perubahan"
+	-git push
