@@ -1,3 +1,4 @@
+/* Box Sizing */
 .card-1{
     width: 320px;
     padding: 24px;
@@ -21,6 +22,22 @@
 .flex-container{
     display: flex;
 }
+
+
+/* Flexbox Styles */
+.container{
+
+    display: flex;
+    justify-content: center;
+    row-gap: 20px;
+}
+.content-1{
+    padding: 20px;
+    margin: 40px;
+}.content-2{
+    padding: 20px;
+    margin: 40px;
+}
 .flex-item{
     width: 100px;
     height: 100px;
@@ -31,13 +48,119 @@
     line-height: 100px;
     font-size: 20px;
 }
-.container{
 
+
+
+
+/* Justify Content Styles */
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-a{
     display: flex;
     justify-content: center;
     row-gap: 20px;
 }
-.content-1{
+.container-b{
+    display: flex;
+    justify-content: flex-start;
+    row-gap: 20px;
+}
+.container-c{
+    display: flex;
+    justify-content: flex-end;
+    row-gap: 20px;
+}
+.container-d{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+.container-e{
+    display: flex;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+.container-f{
+    display: flex;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+.konten{
     padding: 20px;
     margin: 40px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+.judul1{
+    background-color: #4CAF50;
+}
+.judul2{
+    background-color: #ff9999;
+}
+.judul3{
+    background-color: #99ccff;
+}
+.judul4{
+    background-color: #ffcc99;
+}
+.judul5{
+    background-color: #ccccff;
+}
+.judul6{
+    background-color: #ccffcc;
+}
+h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+
+
+/* Grid Styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+/*
+1. Note:
+    fr adalah singkatan dari fraction.
+2. Secara sederhana:
+    1fr berarti 1 bagian dari ruang yang tersedia.
+
+    1fr = 300px
+    2fr = 600px
+    danseterusnya
+    selain itu grid-template-columns: 200px 300px 200px; juga bisa ditulis seperti ini grid-template-columns: 1fr 1.5fr 1fr;
+
+3. Repeat:
+    repeat(3, 1fr) artinya membuat 3 kolom dengan lebar masing-masing 1fr.
+    repeat(2, 200px) artinya membuat 2 kolom dengan lebar masing-masing 200px.
+    repeat(4, auto) artinya membuat 4 kolom dengan lebar otomatis sesuai konten.
+*/
+
+.grid-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*"Buat 3 kolom, masing-masing mengambil 1 bagian ruang yang sama." */
+    gap: 20px;
+    margin-top: 80px;
+}
+.products-item{
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
 }
