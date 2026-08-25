@@ -1,0 +1,23 @@
+.bg-iceblue{
+    background-color: rgb(223, 233, 255);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(36, 105, 255);
+    border-radius: 5px;
+}
+
+.btn-blue{
+    background-color: rgb(67, 123, 242);
+    padding: 7px;
+    color: aliceblue;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+     transition: transform 0.3s ease-in-out 0.1s;
+}
+.btn-blue:hover{
+    background-color: rgb(36, 105, 255);
+    transform: scale(1.02);
+    box-shadow:  0 4px 8px 0 rgb(174, 200, 255);
+}
